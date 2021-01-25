@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_components_center_title_with_image_and_buttons",
+  "info": {
+    "name": "Center title with image",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.link"
+    },
+    "optionImage": {
+      "type": "enumeration",
+      "enum": [
+        "Side",
+        "FullWidth"
+      ],
+      "default": "Side"
+    },
+    "addButton": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    }
+  }
+}

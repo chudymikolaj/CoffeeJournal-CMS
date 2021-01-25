@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_components_showcases",
+  "info": {
+    "name": "Showcase",
+    "icon": "square"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "backgroundB": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "MainButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link",
+      "max": 2
+    }
+  }
+}
