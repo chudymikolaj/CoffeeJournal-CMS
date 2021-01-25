@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu-footers",
+  "info": {
+    "name": "Menu Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.link"
+      ]
+    }
+  }
+}
