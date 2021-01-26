@@ -10,24 +10,10 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "button": {
+    "Slide": {
       "type": "component",
-      "repeatable": false,
-      "component": "menu.link"
+      "repeatable": true,
+      "component": "components.slide"
     }
   }
 }
