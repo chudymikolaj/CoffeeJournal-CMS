@@ -2,7 +2,8 @@
   "collectionName": "components_components_showcases",
   "info": {
     "name": "Showcase",
-    "icon": "square"
+    "icon": "square",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -29,7 +30,8 @@
       "required": false
     },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "unique": false
     },
     "MainButton": {
       "type": "component",
